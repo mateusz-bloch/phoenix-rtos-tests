@@ -1,0 +1,310 @@
+test:
+  tests:
+    - name: activations_test
+      harness: tflm.py
+      kwargs:
+        test: activations_test
+    - name: add_n_test
+      harness: tflm.py
+      kwargs:
+        test: add_n_test
+    - name: add_test
+      harness: tflm.py
+      kwargs:
+        test: add_test
+    - name: arg_min_max_test
+      harness: tflm.py
+      kwargs:
+        test: arg_min_max_test
+    - name: batch_matmul_test
+      harness: tflm.py
+      kwargs:
+        test: batch_matmul_test
+    - name: batch_to_space_nd_test
+      harness: tflm.py
+      kwargs:
+        test: batch_to_space_nd_test
+    - name: broadcast_args_test
+      harness: tflm.py
+      kwargs:
+        test: broadcast_args_test
+    - name: broadcast_to_test
+      harness: tflm.py
+      kwargs:
+        test: broadcast_to_test
+    - name: call_once_test
+      harness: tflm.py
+      kwargs:
+        test: call_once_test
+    - name: cast_test
+      harness: tflm.py
+      kwargs:
+        test: cast_test
+    - name: ceil_test
+      harness: tflm.py
+      kwargs:
+        test: ceil_test
+    - name: circular_buffer_test
+      harness: tflm.py
+      kwargs:
+        test: circular_buffer_test
+    - name: comparisons_test
+      harness: tflm.py
+      kwargs:
+        test: comparisons_test
+    - name: concatenation_test
+      harness: tflm.py
+      kwargs:
+        test: concatenation_test
+    - name: conv_test
+      harness: tflm.py
+      kwargs:
+        test: conv_test
+    - name: cumsum_test
+      harness: tflm.py
+      kwargs:
+        test: cumsum_test
+    - name: depth_to_space_test
+      harness: tflm.py
+      kwargs:
+        test: depth_to_space_test
+    - name: depthwise_conv_test
+      harness: tflm.py
+      kwargs:
+        test: depthwise_conv_test
+    - name: dequantize_test
+      harness: tflm.py
+      kwargs:
+        test: dequantize_test
+    - name: detection_postprocess_test
+      harness: tflm.py
+      kwargs:
+        test: detection_postprocess_test
+    - name: div_test
+      harness: tflm.py
+      kwargs:
+        test: div_test
+    - name: elementwise_test
+      harness: tflm.py
+      kwargs:
+        test: elementwise_test
+    - name: elu_test
+      harness: tflm.py
+      kwargs:
+        test: elu_test
+    - name: embedding_lookup_test
+      harness: tflm.py
+      kwargs:
+        test: embedding_lookup_test
+    - name: exp_test
+      harness: tflm.py
+      kwargs:
+        test: exp_test
+    - name: expand_dims_test
+      harness: tflm.py
+      kwargs:
+        test: expand_dims_test
+    - name: fill_test
+      harness: tflm.py
+      kwargs:
+        test: fill_test
+    - name: floor_div_test
+      harness: tflm.py
+      kwargs:
+        test: floor_div_test
+    - name: floor_mod_test
+      harness: tflm.py
+      kwargs:
+        test: floor_mod_test
+    - name: floor_test
+      harness: tflm.py
+      kwargs:
+        test: floor_test
+    - name: fully_connected_test
+      harness: tflm.py
+      kwargs:
+        test: fully_connected_test
+    - name: gather_nd_test
+      harness: tflm.py
+      kwargs:
+        test: gather_nd_test
+    - name: gather_test
+      harness: tflm.py
+      kwargs:
+        test: gather_test
+    - name: hard_swish_test
+      harness: tflm.py
+      kwargs:
+        test: hard_swish_test
+    - name: if_test
+      harness: tflm.py
+      kwargs:
+        test: if_test
+    - name: l2_pool_2d_test
+      harness: tflm.py
+      kwargs:
+        test: l2_pool_2d_test
+    - name: l2norm_test
+      harness: tflm.py
+      kwargs:
+        test: l2norm_test
+    - name: leaky_relu_test
+      harness: tflm.py
+      kwargs:
+        test: leaky_relu_test
+    - name: log_softmax_test
+      harness: tflm.py
+      kwargs:
+        test: log_softmax_test
+    - name: logical_test
+      harness: tflm.py
+      kwargs:
+        test: logical_test
+    - name: logistic_test
+      harness: tflm.py
+      kwargs:
+        test: logistic_test
+    - name: lstm_eval_test
+      harness: tflm.py
+      kwargs:
+        test: lstm_eval_test
+    - name: maximum_minimum_test
+      harness: tflm.py
+      kwargs:
+        test: maximum_minimum_test
+    - name: mirror_pad_test
+      harness: tflm.py
+      kwargs:
+        test: mirror_pad_test
+    - name: mul_test
+      harness: tflm.py
+      kwargs:
+        test: mul_test
+    - name: neg_test
+      harness: tflm.py
+      kwargs:
+        test: neg_test
+    - name: pack_test
+      harness: tflm.py
+      kwargs:
+        test: pack_test
+    - name: pad_test
+      harness: tflm.py
+      kwargs:
+        test: pad_test
+    - name: pooling_test
+      harness: tflm.py
+      kwargs:
+        test: pooling_test
+    - name: prelu_test
+      harness: tflm.py
+      kwargs:
+        test: prelu_test
+    - name: quantization_util_test
+      harness: tflm.py
+      kwargs:
+        test: quantization_util_test
+    - name: quantize_test
+      harness: tflm.py
+      kwargs:
+        test: quantize_test
+    - name: reduce_test
+      harness: tflm.py
+      kwargs:
+        test: reduce_test
+    - name: reshape_test
+      harness: tflm.py
+      kwargs:
+        test: reshape_test
+    - name: resize_bilinear_test
+      harness: tflm.py
+      kwargs:
+        test: resize_bilinear_test
+    - name: resize_nearest_neighbor_test
+      harness: tflm.py
+      kwargs:
+        test: resize_nearest_neighbor_test
+    - name: round_test
+      harness: tflm.py
+      kwargs:
+        test: round_test
+    - name: select_test
+      harness: tflm.py
+      kwargs:
+        test: select_test
+    - name: shape_test
+      harness: tflm.py
+      kwargs:
+        test: shape_test
+    - name: slice_test
+      harness: tflm.py
+      kwargs:
+        test: slice_test
+    - name: softmax_test
+      harness: tflm.py
+      kwargs:
+        test: softmax_test
+    - name: space_to_batch_nd_test
+      harness: tflm.py
+      kwargs:
+        test: space_to_batch_nd_test
+    - name: space_to_depth_test
+      harness: tflm.py
+      kwargs:
+        test: space_to_depth_test
+    - name: split_test
+      harness: tflm.py
+      kwargs:
+        test: split_test
+    - name: split_v_test
+      harness: tflm.py
+      kwargs:
+        test: split_v_test
+    - name: squared_difference_test
+      harness: tflm.py
+      kwargs:
+        test: squared_difference_test
+    - name: squeeze_test
+      harness: tflm.py
+      kwargs:
+        test: squeeze_test
+    - name: strided_slice_test
+      harness: tflm.py
+      kwargs:
+        test: strided_slice_test
+    - name: sub_test
+      harness: tflm.py
+      kwargs:
+        test: sub_test
+    # - name: svdf_test
+    #   harness: tflm.py
+    #   kwargs:
+    #     test: svdf_test
+    - name: tanh_test
+      harness: tflm.py
+      kwargs:
+        test: tanh_test
+    - name: transpose_conv_test
+      harness: tflm.py
+      kwargs:
+        test: transpose_conv_test
+    - name: transpose_test
+      harness: tflm.py
+      kwargs:
+        test: transpose_test
+    - name: unpack_test
+      harness: tflm.py
+      kwargs:
+        test: unpack_test
+    - name: unidirectional_sequence_lstm_test
+      harness: tflm.py
+      kwargs:
+        test: unidirectional_sequence_lstm_test
+    - name: while_test
+      harness: tflm.py
+      kwargs:
+        test: while_test
+    - name: zeros_like_test
+      harness: tflm.py
+      kwargs:
+        test: zeros_like_test
